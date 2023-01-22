@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <title>Wild-Wheels.com | Agendar</title>
+    <link rel="icon" type="image/x-icon" href="img/icono.png" />
+    <h1 style="color:rgb(255, 255, 255); background-color: rgb(0, 0, 0); height: 55px;margin-top: 0px; border-bottom: 2px solid red;">
+        <img src="img/logo.jpg" width="250px"  height="52" alt="0px" >
+        <div Style="display: inline-block;"> 
+            <a href="Index.html" style="text-decoration: underline transparent;">
+
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;">Inicio</span>
+            </a>
+
+            <a href="Agenda.html" style="text-decoration: underline transparent">
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;text-decoration: overline;">Agenda tu cita</span>
+            </a>
+
+            <a href="Bateria-grúa.html" style="text-decoration: underline transparent">
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;">Grúa/Servicio a domicilio</span>
+            </a>
+
+            <a href="ZonaTuning.html" style="text-decoration: underline transparent">
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;">Zona tuning</span>
+            </a>
+
+            <a href="NuestrasInstalaciones.html" style="text-decoration: underline transparent">
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;">Nuestras instalaciónes</span>
+            </a>
+
+            <a href="contacto.html" style="text-decoration: underline transparent">
+            <span Style="color:rgb(255, 255, 255);font-size: medium;margin-left: 40px;">Contacto</span>
+            </a>
+
+        </div>
+    </h1>
+    <style>
+        body{
+            background-color: black;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: 100vh;
+           
+
+            
+        }
+    </style>
+</head>
+<body>
+    <style>
+        body {
+            background-color:black;
+            background-repeat: repeat;
+            
+        }
+    </style>
+    <section>
+        <article style="text-align: center;" >
+            <style>
+                body {
+                    background-image: url(img/rx7.webp) ;
+                    background-repeat: no-repeat;
+                    background-position-y: 827px;
+                }
+            </style>
+            <h2 style="color: white; text-align: center; text-decoration: overline;">Agenda tu cita</h2><br>
+        </article>
+
+        <article>
+            <p style="text-align:center;color:aliceblue;text-decoration: underline;font-size: large;">El taller se comunicará con usted para confirmar o reprogramar la cita solicitada</p>
+            <div style="text-align:center">
+            <form action="/Forms/Citas" method="post" style="color: aliceblue;">
+                <label for="Nombres">Nombres</label>
+                <input type="text" id="Nombres" Name="Nombres" placeholder="Nombres" required>
+                <label for="Apellidos">Apellidos</label>
+                <input type="text" id="Apellidos" Name="Apellidos" Placeholder="Apellidos" required><br><br>
+                <label for="Correo Electrónico">Correo Electrónico</label>
+                <input type="email" id="Correo Electrónico" name="Correo Electrónico" 
+                placeholder="Correo Electronico" required style="width: 350px"><br><br>
+                <label for="Documento de identidad" >Documento de identidad</label>
+                <input type="number" id="Documento de identidad" name="Documento de identidad" style="width:210px" 
+                placeholder="Documento de identidad" required>
+                <br><br>
+                <label for="Tipo de documento">Tipo de documento</label>
+                <select id="Tipo de documento" style="color:back; width: 250px" name="Tipo de documento;" required>
+                    <option value="CC">Cedula de Ciudadania</option>
+                    <option value="PAP">Pasaporte</option>
+                    <option value="CE">Cedula extranjeria</option>
+                    <option value="NIP">Numero de identificación personal</option>
+                    <option value="NIT">Numero de identificación Tributaria</option>
+                </select><br><br>
+                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento" required>
+                <label for="Preferencial" style="padding-left: 20px">Preferencial</label>
+                <input type="checkbox" id="Preferencial" name="Preferencial"><br><br>
+
+                <label for="Matricula">Matricula</label>
+                <input type="text" id="Matricula" Name="Matricula" placeholder="Matricula" style="width:100px" required>
+                <label for="Servicio Publico" style="padding-left:70px">Servicio Publico</label>
+                <input type="checkbox" id="Servicio Publico" Name="Servicio Publico"><br><br>
+                <label for="VIN">VIN</label>
+                <input type="text" id="VIN" name="VIN" Placeholder="VIN" style="width:340px" required><br><br>
+                <label for="Modelo" >Año del Vehículo</label>
+                <input type="number" id="Modelo" name="Modelo" Min="1932" placeholder="Modelo (Minimo 1932)" 
+                style="width:260px" required><br><br>
+                <label for="Kilometraje">Kilometraje</label>
+                <input type="number" id="Kilometraje" name="Kilometraje" style="width:295px" required><br><br>
+
+                <label for="Servicio" >Servicio</label>
+                <select id="Servicio" name="Servicio" required>
+                    <option Value="Cambio de aceite">Cambio de aceite</option>
+                    <option Value="Mantenimiento">Mantenimiento</option>
+                    <option Value="Mecanica especializada">Mecanica especializada</option>
+                    <option Value="Modificaciónes/tuning">Modificaciónes/tuning</option>
+                    <option Value="batería a domicilio">batería a domicilio</option>
+                    <option Value="Servicio grúa">Servicio grúa</option>
+                </select>
+                <label for="Espera Vehículo" style="margin-left:33px">Espera Vehículo</label> 
+                <input type="checkbox" id="Espera Vehículo" name="Espera Vehículo"><br><br>
+ 
+                <label for="Fecha">Fecha 
+                    (No valida para el siguiente dia)</label>
+                <input type="date" id="Fecha" name="Fecha" style="margin-left:20px" required><br><br>
+                
+                <label for="Hora">Hora</label>
+                <select id="Hora" name="Hora" required>
+                    <option value="7:00">7:00</option>
+                    <option value="7:30">7:30</option>
+                    <option value="8:00">8:00</option>
+                    <option value="8:30">8:30</option>
+                    <option value="9:00">9:00</option>
+                    <option value="9:30">9:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="12:00">12:00</option>
+                    <option value="12:30">12:30</option>
+                    <option value="1:00">1:00</option>
+                    <option value="1:30">1:30</option>
+                    <option value="2:00">2:00</option>
+                    <option value="2:30">2:30</option>
+                    <option value="3:00">3:00</option>
+                    <option value="3:30">3:30</option>
+                </select><br><br>
+            </div>
+                <div style="text-align: center;">
+                    <label for="acept" style="color:aliceblue">Acepto politica de tratamiento de datos</label>
+                    <input type="checkbox" id="acept" name="acept" required><br><br>
+                    <button type="submit" style="background-color: white;border-radius:10px;border-color: green;
+                    font-family:sans-serif;font-size:medium;border-width: 3px;">Confirmar</button>
+                </div>
+                
+            </form>
+        </article>
+    
+    </section><br><br> 
+    <footer style="color:aliceblue;background-color: black;border-top: 1px solid red;"><span style="margin-left: 10px;">Copyright 2023©</span></footer>   
+</body>
+</html>
