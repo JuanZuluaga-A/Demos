@@ -1,0 +1,237 @@
+body {
+background-color: white;
+color: black;
+font-family: Verdana;
+}
+
+.Main-Menu {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 2px 9px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+
+}
+
+.Main-Menu-Drop {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Menu-section-button {
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: verdana;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:white;
+    font-size: medium;
+    border-color: rgba(255, 255, 255, 0.055);
+    cursor: pointer;
+}
+
+.Main-Menu-hidden-items {
+    display: none;
+    position: absolute;
+    background-color: rgb(65, 65, 65);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 3px 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.Main-Menu-hidden-items a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.Menu-section-button:hover {
+    box-shadow: 0px 2px 3px black;
+}
+
+.Menu-section-button:active {
+    transform: scale(1.05);
+}
+
+.Main-Menu-hidden-items a:hover {
+    box-shadow: 1px 2px 10px black;
+}
+
+.Main-Menu-hidden-items a:active {
+    transform: scale(1.05);
+}
+
+.Main-Menu-Drop:hover .Main-Menu-hidden-items{
+    display: block;
+}
+
+.music-search button{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.068);
+    cursor: pointer;
+}
+
+.music-search button:hover{
+    box-shadow: 0px 2px 3px;
+}
+
+.music-search button:active{
+    transform: scale(1.03);
+}
+
+.music-search input {
+    border-radius: 4px;
+    background-color: rgb(73, 73, 73);
+    width: 80%
+}
+
+.music-search  {
+    align-self: center;
+    
+}
+
+.music-search input {
+    color: white;
+}
+
+.Logo-Main-Menu {
+    width: 4%;
+    height: 35px;
+    align-self: center;
+    margin-left: -80px;
+    box-shadow: 0px 1px 2px;
+    cursor: pointer;
+}
+
+.Logo-Main-Menu:hover {
+    box-shadow: 0px 1px 8px;
+
+}
+
+.Logo-Main-Menu:active {
+    transform: scale(1.02);
+
+}
+
+.Icon-Anchor {
+    text-decoration: none;
+}
+
+body {
+    background-color:  rgb(65, 65, 65);
+    margin:0;
+}
+
+.Page-Name-Content {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid grey;
+}
+
+.Page-Name {
+    margin-top: 35px;
+    width: 60%;
+}
+
+.First-Page-Content {
+    display: flex;
+    background: linear-gradient(rgb(66, 29, 62), rgb(21, 22, 40)) ;
+    width:100%;
+    border-bottom: 2px solid grey;
+}
+
+.First-Page-Content-Speaker {
+    width: 35%;
+    align-self: flex-start;
+}
+
+.First-Page-Content-Text1 {
+    color:orange;
+    font-family: georgia;
+    font-size: 700%;
+    text-align: center;
+}
+
+.First-Page-Content-Text-Image {
+    width: 60%;
+    height: 50%;
+    align-self: center;
+}
+
+.First-Page-Content2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.First-Page-Content-PeopleHeadphones {
+    width: 30%;
+    border-radius: 8px;
+    justify-self: flex-start;
+}
+
+.second-first-page-text {
+    color:white;
+    padding: 10px;
+    margin-left: 6%;
+    text-align: center;
+}
+
+.genres {
+    background: linear-gradient(rgb(21, 22, 40),rgb(66, 29, 62));
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.genres-headder {
+    color:white;
+    text-align: center;
+}
+
+.genre-select-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.genre-select-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.genre-button {
+    background-color: transparent;
+    color:white;
+    padding: 5px;
+    font-family:verdana;
+    border-radius: 4px;
+    border-color: gold;
+    cursor: pointer;
+}
+
+.genre-button:hover {
+    box-shadow: 2px 1px 5px black;
+}
+
+.genre-button:active {
+    transform: scale(1.03);
+}
+
+.Footer-text {
+    color: white;
+    margin-left: 3%;
+}
