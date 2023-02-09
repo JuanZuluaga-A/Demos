@@ -235,3 +235,68 @@ body {
     color: white;
     margin-left: 3%;
 }
+
+.Inv1 {
+    width: 10%;
+}
+
+.discover {
+    background-color: rgb(21, 22, 40);
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.discover-headder {
+    color:white;
+    text-align: center;
+}
+
+.discover-select-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.discover-select-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.discover-button {
+    background-color: transparent;
+    color:white;
+    padding: 5px;
+    font-family:verdana;
+    border-radius: 4px;
+    border-color: gold;
+    cursor: pointer;
+}
+
+.discover-button:hover {
+    box-shadow: 2px 1px 5px black;
+}
+
+.discover-button:active {
+    transform: scale(1.03);
+}
+
+.First-Page-Content3 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.First-Page-Content-cellphone-music {
+    width: 30%;
+    border-radius: 8px;
+    justify-self: flex-start;
+}
+
+.third-first-page-text {
+    color:white;
+    padding: 10px;
+    margin-left: 12%;
+    text-align: center;
+}
