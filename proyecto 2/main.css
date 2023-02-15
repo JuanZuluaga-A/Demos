@@ -300,3 +300,109 @@ body {
     margin-left: 12%;
     text-align: center;
 }
+
+.t10a-tittle {
+    margin-top: 50px;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 3px 3px black;
+    border-bottom: 2px solid grey;
+}
+
+.song-info {
+    display: grid;
+    grid-template-columns: 20% 3% ;
+    grid-template-columns: 20% 80%;
+    background-color: rgb(2, 0, 14);
+}
+
+.song-photo {
+    align-self: center;
+    justify-self: center;
+    width: 90%;
+    padding: 10px;
+    box-shadow: 1px 2px 10px black;
+    padding: 0;
+    margin-top:25px
+
+}
+
+.song-text-info {
+    color:white;
+    margin: 0px;
+}
+
+.media-info {
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.song {
+    width: 50%;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin: 0px 0px 10px 0px;
+
+
+}
+
+
+
+.song-lyrics {   
+    color:white;
+    background-color: rgb(39, 39, 39);
+    border-top: 2px solid black;
+    border-bottom: 2px solid grey;
+}
+
+.song-lyrics-text {
+    margin-left: 2%;
+}
+
+.Lyrics {
+    white-space: break-spaces;
+    margin-left: -7%;
+}
+
+.t10a-list {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 2px solid grey;
+}
+
+
+.list-anchor-stile {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10%;
+}
+
+.t10a-item {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 3px;
+}
+
+.t10a-item:hover {
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+.t10a-item a {
+    text-decoration: none;
+    color:white;
+}
+
+.list-number-duration-song {
+    justify-self: center;
+    margin-top:30px;
+}
+
+.list-song-info {
+    justify-self: start;
+}
+
+.list-song-artist {
+    font-size: 10px;
+}
