@@ -440,3 +440,14 @@ body {
 .nlfi-lbl {
     color:white;
 }
+
+.register {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 7.85%;
+}
+
+.register-text {
+    color: white;
+    
+}
