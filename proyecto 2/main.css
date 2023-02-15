@@ -406,3 +406,37 @@ body {
 .list-song-artist {
     font-size: 10px;
 }
+
+.no-limit-text {
+    text-align: center;
+    color: white;
+}
+
+
+.no-limit{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.no-limit-form {
+   text-align: left;
+}
+
+.nlfi {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.nlfi-btn {
+    margin-top: 30px;
+    border-radius: 4px;
+    color:white;
+    border-color: rgba(0, 0, 0, 0.308);
+    background-color: transparent;
+    
+}
+
+.nlfi-lbl {
+    color:white;
+}
